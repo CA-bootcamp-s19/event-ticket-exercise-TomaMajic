@@ -102,7 +102,6 @@ contract('EventTicket', function(accounts) {
                 const buyReceipt = await instance.buyTickets(1, {from: secondAccount, value: ticketPrice})
                 const refundReceipt = await instance.getRefund({from: secondAccount})
                 const postSaleAmount = await web3.eth.getBalance(secondAccount) 
-                
                 const buyTx = await web3.eth.getTransaction(buyReceipt.tx)
                 let buyTxCost = Number(buyTx.gasPrice) * buyReceipt.receipt.gasUsed
 
