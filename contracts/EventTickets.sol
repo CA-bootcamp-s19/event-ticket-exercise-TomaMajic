@@ -64,6 +64,7 @@ contract EventTickets {
     }
 
     function getRefund() public {
+        require(myEvent.isOpen);
         require(myEvent.buyers[msg.sender] > 0);
         myEvent.totalTickets += myEvent.buyers[msg.sender];
         uint amountToRefund = myEvent.buyers[msg.sender] * TICKET_PRICE;
