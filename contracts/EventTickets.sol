@@ -3,7 +3,7 @@ pragma solidity ^0.5.0;
 contract EventTickets {
 
     address payable public owner;
-    uint TICKET_PRICE = 100 wei;
+    uint constant public TICKET_PRICE = 100 wei;
 
     struct Event {
         string description;

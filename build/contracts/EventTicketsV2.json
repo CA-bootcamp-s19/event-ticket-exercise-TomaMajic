@@ -120,14 +120,14 @@
     "absolutePath": "/Users/tomamajic/Desktop/Toma/Dev/ConsensysAcademy/7_module/EventTicketExercise_Graded/event-ticket-exercise-TomaMajic/contracts/EventTicketsV2.sol",
     "exportedSymbols": {
       "EventTicketsV2": [
-        349
+        355
       ]
     },
-    "id": 350,
+    "id": 356,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 309,
+        "id": 315,
         "literals": [
           "solidity",
           "^",
@@ -143,19 +143,19 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 349,
+        "id": 355,
         "linearizedBaseContracts": [
-          349
+          355
         ],
         "name": "EventTicketsV2",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 312,
+            "id": 318,
             "name": "PRICE_TICKET",
             "nodeType": "VariableDeclaration",
-            "scope": 349,
+            "scope": 355,
             "src": "288:29:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -164,7 +164,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 310,
+              "id": 316,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "288:4:1",
@@ -176,7 +176,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "313030",
-              "id": 311,
+              "id": 317,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -195,10 +195,10 @@
           },
           {
             "constant": false,
-            "id": 314,
+            "id": 320,
             "name": "idGenerator",
             "nodeType": "VariableDeclaration",
-            "scope": 349,
+            "scope": 355,
             "src": "403:23:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -207,7 +207,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 313,
+              "id": 319,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "403:4:1",
@@ -222,20 +222,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 324,
+            "id": 330,
             "name": "LogEventAdded",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 323,
+              "id": 329,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 316,
+                  "id": 322,
                   "indexed": false,
                   "name": "desc",
                   "nodeType": "VariableDeclaration",
-                  "scope": 324,
+                  "scope": 330,
                   "src": "973:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -244,7 +244,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 315,
+                    "id": 321,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "973:6:1",
@@ -258,11 +258,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 318,
+                  "id": 324,
                   "indexed": false,
                   "name": "url",
                   "nodeType": "VariableDeclaration",
-                  "scope": 324,
+                  "scope": 330,
                   "src": "986:10:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -271,7 +271,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 317,
+                    "id": 323,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "986:6:1",
@@ -285,11 +285,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 320,
+                  "id": 326,
                   "indexed": false,
                   "name": "ticketsAvailable",
                   "nodeType": "VariableDeclaration",
-                  "scope": 324,
+                  "scope": 330,
                   "src": "998:21:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -298,7 +298,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 319,
+                    "id": 325,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "998:4:1",
@@ -312,11 +312,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 322,
+                  "id": 328,
                   "indexed": false,
                   "name": "eventId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 324,
+                  "scope": 330,
                   "src": "1021:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -325,7 +325,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 321,
+                    "id": 327,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1021:4:1",
@@ -345,20 +345,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 332,
+            "id": 338,
             "name": "LogBuyTickets",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 331,
+              "id": 337,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 326,
+                  "id": 332,
                   "indexed": false,
                   "name": "buyer",
                   "nodeType": "VariableDeclaration",
-                  "scope": 332,
+                  "scope": 338,
                   "src": "1060:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -367,7 +367,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 325,
+                    "id": 331,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1060:7:1",
@@ -382,11 +382,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 328,
+                  "id": 334,
                   "indexed": false,
                   "name": "eventId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 332,
+                  "scope": 338,
                   "src": "1075:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -395,7 +395,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 327,
+                    "id": 333,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1075:4:1",
@@ -409,11 +409,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 330,
+                  "id": 336,
                   "indexed": false,
                   "name": "numTickets",
                   "nodeType": "VariableDeclaration",
-                  "scope": 332,
+                  "scope": 338,
                   "src": "1089:15:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -422,7 +422,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 329,
+                    "id": 335,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1089:4:1",
@@ -442,20 +442,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 340,
+            "id": 346,
             "name": "LogGetRefund",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 339,
+              "id": 345,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 334,
+                  "id": 340,
                   "indexed": false,
                   "name": "accountRefunded",
                   "nodeType": "VariableDeclaration",
-                  "scope": 340,
+                  "scope": 346,
                   "src": "1130:23:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -464,7 +464,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 333,
+                    "id": 339,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1130:7:1",
@@ -479,11 +479,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 336,
+                  "id": 342,
                   "indexed": false,
                   "name": "eventId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 340,
+                  "scope": 346,
                   "src": "1155:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -492,7 +492,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 335,
+                    "id": 341,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1155:4:1",
@@ -506,11 +506,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 338,
+                  "id": 344,
                   "indexed": false,
                   "name": "numTickets",
                   "nodeType": "VariableDeclaration",
-                  "scope": 340,
+                  "scope": 346,
                   "src": "1169:15:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -519,7 +519,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 337,
+                    "id": 343,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1169:4:1",
@@ -539,20 +539,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 348,
+            "id": 354,
             "name": "LogEndSale",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 347,
+              "id": 353,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 342,
+                  "id": 348,
                   "indexed": false,
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 348,
+                  "scope": 354,
                   "src": "1208:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -561,7 +561,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 341,
+                    "id": 347,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1208:7:1",
@@ -576,11 +576,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 344,
+                  "id": 350,
                   "indexed": false,
                   "name": "balance",
                   "nodeType": "VariableDeclaration",
-                  "scope": 348,
+                  "scope": 354,
                   "src": "1223:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -589,7 +589,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 343,
+                    "id": 349,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1223:4:1",
@@ -603,11 +603,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 346,
+                  "id": 352,
                   "indexed": false,
                   "name": "eventId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 348,
+                  "scope": 354,
                   "src": "1237:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -616,7 +616,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 345,
+                    "id": 351,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1237:4:1",
@@ -634,7 +634,7 @@
             "src": "1191:60:1"
           }
         ],
-        "scope": 350,
+        "scope": 356,
         "src": "140:3676:1"
       }
     ],
@@ -644,14 +644,14 @@
     "absolutePath": "/Users/tomamajic/Desktop/Toma/Dev/ConsensysAcademy/7_module/EventTicketExercise_Graded/event-ticket-exercise-TomaMajic/contracts/EventTicketsV2.sol",
     "exportedSymbols": {
       "EventTicketsV2": [
-        349
+        355
       ]
     },
-    "id": 350,
+    "id": 356,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 309,
+        "id": 315,
         "literals": [
           "solidity",
           "^",
@@ -667,19 +667,19 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 349,
+        "id": 355,
         "linearizedBaseContracts": [
-          349
+          355
         ],
         "name": "EventTicketsV2",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 312,
+            "id": 318,
             "name": "PRICE_TICKET",
             "nodeType": "VariableDeclaration",
-            "scope": 349,
+            "scope": 355,
             "src": "288:29:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -688,7 +688,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 310,
+              "id": 316,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "288:4:1",
@@ -700,7 +700,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "313030",
-              "id": 311,
+              "id": 317,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -719,10 +719,10 @@
           },
           {
             "constant": false,
-            "id": 314,
+            "id": 320,
             "name": "idGenerator",
             "nodeType": "VariableDeclaration",
-            "scope": 349,
+            "scope": 355,
             "src": "403:23:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -731,7 +731,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 313,
+              "id": 319,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "403:4:1",
@@ -746,20 +746,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 324,
+            "id": 330,
             "name": "LogEventAdded",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 323,
+              "id": 329,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 316,
+                  "id": 322,
                   "indexed": false,
                   "name": "desc",
                   "nodeType": "VariableDeclaration",
-                  "scope": 324,
+                  "scope": 330,
                   "src": "973:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -768,7 +768,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 315,
+                    "id": 321,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "973:6:1",
@@ -782,11 +782,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 318,
+                  "id": 324,
                   "indexed": false,
                   "name": "url",
                   "nodeType": "VariableDeclaration",
-                  "scope": 324,
+                  "scope": 330,
                   "src": "986:10:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -795,7 +795,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 317,
+                    "id": 323,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "986:6:1",
@@ -809,11 +809,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 320,
+                  "id": 326,
                   "indexed": false,
                   "name": "ticketsAvailable",
                   "nodeType": "VariableDeclaration",
-                  "scope": 324,
+                  "scope": 330,
                   "src": "998:21:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -822,7 +822,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 319,
+                    "id": 325,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "998:4:1",
@@ -836,11 +836,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 322,
+                  "id": 328,
                   "indexed": false,
                   "name": "eventId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 324,
+                  "scope": 330,
                   "src": "1021:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -849,7 +849,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 321,
+                    "id": 327,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1021:4:1",
@@ -869,20 +869,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 332,
+            "id": 338,
             "name": "LogBuyTickets",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 331,
+              "id": 337,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 326,
+                  "id": 332,
                   "indexed": false,
                   "name": "buyer",
                   "nodeType": "VariableDeclaration",
-                  "scope": 332,
+                  "scope": 338,
                   "src": "1060:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -891,7 +891,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 325,
+                    "id": 331,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1060:7:1",
@@ -906,11 +906,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 328,
+                  "id": 334,
                   "indexed": false,
                   "name": "eventId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 332,
+                  "scope": 338,
                   "src": "1075:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -919,7 +919,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 327,
+                    "id": 333,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1075:4:1",
@@ -933,11 +933,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 330,
+                  "id": 336,
                   "indexed": false,
                   "name": "numTickets",
                   "nodeType": "VariableDeclaration",
-                  "scope": 332,
+                  "scope": 338,
                   "src": "1089:15:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -946,7 +946,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 329,
+                    "id": 335,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1089:4:1",
@@ -966,20 +966,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 340,
+            "id": 346,
             "name": "LogGetRefund",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 339,
+              "id": 345,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 334,
+                  "id": 340,
                   "indexed": false,
                   "name": "accountRefunded",
                   "nodeType": "VariableDeclaration",
-                  "scope": 340,
+                  "scope": 346,
                   "src": "1130:23:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -988,7 +988,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 333,
+                    "id": 339,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1130:7:1",
@@ -1003,11 +1003,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 336,
+                  "id": 342,
                   "indexed": false,
                   "name": "eventId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 340,
+                  "scope": 346,
                   "src": "1155:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1016,7 +1016,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 335,
+                    "id": 341,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1155:4:1",
@@ -1030,11 +1030,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 338,
+                  "id": 344,
                   "indexed": false,
                   "name": "numTickets",
                   "nodeType": "VariableDeclaration",
-                  "scope": 340,
+                  "scope": 346,
                   "src": "1169:15:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1043,7 +1043,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 337,
+                    "id": 343,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1169:4:1",
@@ -1063,20 +1063,20 @@
           {
             "anonymous": false,
             "documentation": null,
-            "id": 348,
+            "id": 354,
             "name": "LogEndSale",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 347,
+              "id": 353,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 342,
+                  "id": 348,
                   "indexed": false,
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 348,
+                  "scope": 354,
                   "src": "1208:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1085,7 +1085,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 341,
+                    "id": 347,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1208:7:1",
@@ -1100,11 +1100,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 344,
+                  "id": 350,
                   "indexed": false,
                   "name": "balance",
                   "nodeType": "VariableDeclaration",
-                  "scope": 348,
+                  "scope": 354,
                   "src": "1223:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1113,7 +1113,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 343,
+                    "id": 349,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1223:4:1",
@@ -1127,11 +1127,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 346,
+                  "id": 352,
                   "indexed": false,
                   "name": "eventId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 348,
+                  "scope": 354,
                   "src": "1237:12:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1140,7 +1140,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 345,
+                    "id": 351,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1237:4:1",
@@ -1158,7 +1158,7 @@
             "src": "1191:60:1"
           }
         ],
-        "scope": 350,
+        "scope": 356,
         "src": "140:3676:1"
       }
     ],
@@ -1170,7 +1170,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.16",
-  "updatedAt": "2019-11-16T21:20:29.881Z",
+  "updatedAt": "2019-11-17T11:35:58.615Z",
   "devdoc": {
     "methods": {}
   },
