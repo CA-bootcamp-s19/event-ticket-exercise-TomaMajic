@@ -10412,9 +10412,114 @@
     "name": "solc",
     "version": "0.5.8+commit.23d335f2.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "1574280170669": {
+      "events": {
+        "0x7d1d82c13762b51876068c852c5d404d0fa38fb615c14eebefafb60bdb4bd1b2": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "desc",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "url",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "ticketsAvailable",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "eventId",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogEventAdded",
+          "type": "event",
+          "signature": "0x7d1d82c13762b51876068c852c5d404d0fa38fb615c14eebefafb60bdb4bd1b2"
+        },
+        "0x15827fa78fedf80f93aa72ce61e705b1362cab60ae596b1bb327076fc3856c24": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "buyer",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "eventId",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "numTickets",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogBuyTickets",
+          "type": "event",
+          "signature": "0x15827fa78fedf80f93aa72ce61e705b1362cab60ae596b1bb327076fc3856c24"
+        },
+        "0x73ebb2050cb3ee6869929e7a26925e92e201f14902e155037f1f90af931b3233": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "accountRefunded",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "eventId",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "numTickets",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogGetRefund",
+          "type": "event",
+          "signature": "0x73ebb2050cb3ee6869929e7a26925e92e201f14902e155037f1f90af931b3233"
+        },
+        "0x6497e6dff32a753fe6b3a2b3430e5f86d65c6e35cf360d52eb3494711d7d7a1c": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "balance",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "eventId",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogEndSale",
+          "type": "event",
+          "signature": "0x6497e6dff32a753fe6b3a2b3430e5f86d65c6e35cf360d52eb3494711d7d7a1c"
+        }
+      },
+      "links": {},
+      "address": "0xFDFa3b6091F9bAfE791224E7A4A4852AFf0D0f7E",
+      "transactionHash": "0x3a7e1084d94032b7b18247435f3297555713d7f45892816c2e9aa4f8bb97f43f"
+    }
+  },
   "schemaVersion": "3.0.16",
-  "updatedAt": "2019-11-17T15:19:43.678Z",
+  "updatedAt": "2019-11-20T23:25:48.955Z",
   "devdoc": {
     "methods": {}
   },

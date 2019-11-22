@@ -66,15 +66,19 @@ contract EventTickets {
     function getRefund() public {
         require(myEvent.isOpen);
         require(myEvent.buyers[msg.sender] > 0);
-        myEvent.totalTickets += myEvent.buyers[msg.sender];
+
         uint amountToRefund = myEvent.buyers[msg.sender] * TICKET_PRICE;
+        myEvent.totalTickets += myEvent.buyers[msg.sender];
+        myEvent.sales -= myEvent.buyers[msg.sender];
         myEvent.buyers[msg.sender] = 0;
+
         msg.sender.transfer(amountToRefund);
 
         emit LogGetRefund(msg.sender, amountToRefund);
     }
 
     function endSale() public onlyOwner {
+        require(myEvent.isOpen);
         myEvent.isOpen = false;
         uint balance = address(this).balance;
         msg.sender.transfer(balance);
